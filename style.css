@@ -1,0 +1,465 @@
+:root{
+     --heading-font: 'Abril Fatface', cursive;
+     --primary-font: 'Ubuntu', sans-serif;
+     --secondary-font: 'Open Sans', sans-serif;
+     --primary-color:#0f2f44;
+    }
+/*=======common section start =====*/
+h1,h2,h3,h4,h5,h6,
+p,
+ul,ol,li{
+    margin: 0;
+}
+a,a:hover{
+    text-decoration: none;
+}
+ul,ol{
+    list-style-type: none;
+}
+.section_info p{
+    font-family: var(--primary-font);
+    font-size: 14px;
+    font-weight: 500;
+    color: #0f2f44;
+}
+.section_info h2{
+    font-family: var(--heading-font);
+    font-size: 32px;
+    color: #0f2f44;
+}
+/*====== common section end=====*/
+/*=======top_bar section start =====*/
+#top_bar{
+    background-color:var(--primary-color);
+    color: #fefefe;
+    padding: 21px;
+    font-family: var(--primary-font);
+}
+/*====== top_bar section end=====*/
+/*=======nav section start =====*/
+#primary_nav #primary_menu ul li a{
+    font-size: 16px;
+    font-family: var(--primary-font);
+    font-weight: 500;
+    text-transform: capitalize;
+    padding: 43px 19px;
+    display: inline-block;
+    color: #222222;
+    transition: 0.5s;
+}
+#primary_nav #primary_menu ul li a:hover{
+    color: #ffc712;
+    background-color: #fff9e6;
+}
+#primary_nav #primary_menu ul li button{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: none;
+    border: 1px solid #dedede;
+    margin: 0 10px;
+    transition: 0.5s;
+}
+#primary_nav #primary_menu ul li button:hover,
+#primary_nav #primary_menu ul li a:hover{
+    color: #ffc712;
+    background-color: #fff9e6;
+}
+/*====== nav section end=====*/
+/*=======success section start =====*/
+#success{
+    background-image: url(./img/success.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    color: #ffffff;
+}
+#success .banner_box{
+    padding: 80px 10px;
+}
+#success .banner_box h4{
+    font-family: var(--primary-font);
+    font-size: 50px;
+    font-weight: 400;
+    color: #0f2f44;
+}
+#success .banner_box h1{
+    font-family: var(--heading-font);
+    font-size: 80px; 
+    text-transform: uppercase;
+    color: #0f2f44;
+}
+#success .banner_box h6{
+  font-family: var(--primary-font);
+  color: #8484bf;
+  letter-spacing: 10px;
+  font-size: 30px;
+}
+#success .banner_box p{
+    font-size: 14px;
+    font-family: var(--secondary-font);
+    color: #444444;
+}
+#success .banner_box a{
+    color: #ffffff;
+    font-family: var(--primary-font);
+    font-weight: 500;
+    display: inline-block;
+    background-color: #8484bf;
+    font-size: 14px;
+    padding: 10px 30px;
+    border-radius: 5px;
+    transition: 0.5s;
+
+}
+#success .banner_box a:hover{
+    color:  #8484bf;
+    background-color: #ffffff;
+    display: inline-block; 
+    font-weight: 500;   
+}
+#success .banner_box button{
+    width: 47px;
+    height: 47px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    border: 1px solid #dedede;
+    margin: 0 10px;
+    color: #8484bf;
+    transition: 0.5s;
+    box-shadow:0 7px 20px 0 rgba(132,132,191,0.15);
+}
+#success .banner_box button:hover{
+    background-color: #8484bf;
+    color: #fff;;
+}
+/*====== success section end=====*/
+/*=======about section start =====*/
+#About{
+    margin-top: 100px;
+}
+#About .about_box p{
+    font-family: var(--primary-font);
+    font-size: 14px;
+    font-weight: 500;
+    color: #0f2f44;
+}
+#About .about_box h2{
+    font-family: var(--heading-font);
+    font-size: 32px;
+    color: #0f2f44;
+}
+#About .about_box .list a{
+    color: #0f2f44;
+    font-family: var(--primary-font);
+    font-weight: 500;
+    display: inline-block;
+    background-color: #ffffff;
+    font-size: 14px;
+    padding: 10px 30px;
+    border-radius: 5px;
+    transition: 0.5s;
+    box-shadow: 0 7px 20px 0 rgba(132,132,191,0.15);;
+}
+
+#About .about_box .list a:hover{
+    background-color: #ffc712;
+
+}
+#About .about_box .list .box{
+    color: #0f2f44;
+    font-family: var(--primary-font);
+    font-weight: 500;
+    display: inline-block;
+    background-color: #ffffff;
+    font-size: 14px;
+    padding: 10px 30px;
+    border-radius: 5px;
+    transition: 0.5s;
+    box-shadow: 0 7px 20px 0 rgba(132,132,191,0.15);;
+}
+#About .about_box .list ul{
+    font-family: var(--secondary-font);
+}
+/*====== about section end=====*/
+/*=======skill section start =====*/
+#skills{
+    margin-top: 100px;
+}
+#skills .skill_box .section_info{
+    text-align: right;
+}
+/*====== skill section end=====*/
+/*=======service section start =====*/
+#service{
+    background-image: url(./img/service.jpg);
+    padding-bottom: 50px;
+    margin-top: 100px;
+    padding: 57px;
+   
+}
+#service .service_box{
+    position: relative;
+    margin: 50px 0px;
+    padding: 100%;
+}
+#service .service_box .service_box_info .overlay h3{
+    font-family: var(--primary-font);
+    font-weight: 500;
+    font-size: 20px;
+
+}
+#service .service_box .service_icon{
+    width: 100px;
+}
+#service .service_box .service_box_info{
+    width: calc(100% - 100px);
+    background-color: #eeeeee;
+}
+#service .service_box .overlay{
+    background-color: var(--primary-color);
+    position: absolute;
+    inset: 0;
+    transform: scaleY(0);
+    transform-origin: bottom;
+    transition: .5s;
+}
+#service .service_box:hover .overlay{
+    transform: scaleY(1);
+    color: #ffffff;
+}
+#service .service_box .overlay a{
+    background-color: #ffce41;
+    display: inline-block;
+    padding: 10px 12px;
+    border-radius: 50%;
+    position: absolute;
+    top: 170px;
+    left: 180px;
+}
+#service .service_box .overlay a i{
+    padding: 10px;
+}
+#service .service_box .service_box_info h3{
+    padding: 30px 0px;
+}
+#service .service_box .service_box_info p{
+    padding-bottom: 10px;
+}
+#service .service_box .overlay img{
+    padding: 30px;
+}
+/*====== service section end=====*/
+/*=======my portfolio section start =====*/
+#portfolio{
+    margin-top: 50px;
+
+}
+#portfolio .portfolio-card{
+    margin: 50px 0px;
+}
+#portfolio .portfolio-box{
+    position: relative;
+}
+#portfolio .portfolio-box .overlay{
+    position: absolute;
+    text-align: center;
+    margin-top: 326px;
+    inset: 0;
+    transform: scale(0);
+    transform-origin: bottom;
+    transition: .5s;
+}
+#portfolio .portfolio-box:hover .overlay{
+    transform: scale(1);
+    border-radius: 3%;
+}
+#portfolio .portfolio-box .overlay h2{
+    background-color: #ffff;
+    font-family: var(--primary-font);
+    font-weight: 500;
+    font-size: 20px;
+    padding: 35px 0px;
+    color: #0f2f44;
+    
+}
+/*====== my portfolio section end=====*/
+/*=======browse section start =====*/
+#browse{
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+#browse .browse_box a{
+    color: #0f2f44;
+    font-family: var(--primary-font);
+    font-weight: 500;
+    display: inline-block;
+    background-color: #ffffff;
+    font-size: 20px;
+    padding: 10px 30px;
+    border-radius: 5px;
+    transition: 0.5s;
+    box-shadow: 0 7px 20px 0 rgba(132,132,191,0.15);;
+}
+#browse .browse_box a:hover{
+    background-color: #ffc712;
+    border: none;
+}
+/*====== browse section end=====*/
+/*=======our testimonial section start =====*/
+#testimonial{
+    background-image: url(./img/service.jpg);
+    padding-bottom: 50px;
+    margin-top: 100px;
+    padding: 57px;
+}
+#testimonial .test_box{
+    margin-top:50px ;
+    padding: 0px 0px;
+    border-radius: 3%;
+    background-color: #e9e9e9;
+}
+#testimonial .test_box .test_info h3{
+    padding: 10px 0px;
+    font-family: var(--primary-font);
+    font-weight: 500;
+    font-size: 20px;
+    margin-top: 20px;
+}
+#testimonial .test_box .test_info{
+    padding: 5px 5px;
+}
+#testimonial .test_box .test_info p{
+    font-family: var(--secondary-font);
+    font-size: 15px;
+    color: #2c4253;
+}
+/*====== our testimonial section end=====*/
+
+/*=======our latest blog section start =====*/
+#blog{
+    margin-top: 100px;
+}
+#blog .blog_box{
+    background-color: #f5f5f5;
+    margin-top: 50px;
+}
+#blog .blog_box img{
+    margin-top: 20px;
+    width: 360px;
+}
+#blog .blog_box .blog_info p{
+    font-family: var(--primary-font);
+    font-size: 14px;
+    font-weight: 400;
+    color:#818181;
+    padding: 30px 0px 20px 0px;
+}
+#blog .blog_box .blog_info h4{
+    font-family: var(--primary-font);
+    font-size: 20px;
+    font-weight: 500;
+    color: #222222;
+    margin-bottom: 30px;
+}
+#blog .blog_box .blog_info h5{
+    font-family: var(--primary-font);
+    font-weight: 500;
+    font-size: 16px;
+    color: #777777;
+    margin-bottom:20px ;
+}
+#blog .blog_box .blog_info .blog_last a{
+    width: calc(100% - 100px);
+    color: #9c9c9c;
+}
+#blog .blog_box:hover{
+    background-color: #0f2f44;
+}
+/*====== our latest blog section end=====*/
+
+/*===== footer section start====== */
+#footer{
+    margin-top: 30px;
+    box-shadow: 0px 7px 20px 0px rgba(0, 0, 0, 0.15);
+}
+#footer .footer_box{
+    margin-top: 90px;
+}
+#footer .footer_box p{
+    font-family: var(--secondary-font);
+    font-size: 14px;
+    margin-top: 30px;
+    color: #828282;
+}
+#footer .footer_box .footer_icon li{
+    width: 20%;
+}
+#footer .footer_box .footer_icon a i{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    padding: 10px 10px;
+    margin-top: 20px;
+    color: #0f2f44;
+    border: 1px solid #0f2f44;
+    background-color: #ffff;
+    display: inline-block;
+    position: relative;
+    margin-bottom: 60px;
+    transition: .5s;
+
+}
+#footer .footer_box .footer_icon li a i:hover{
+    background-color: #0f2f44;
+    color: #ffff;
+}
+#footer .footer_box .titel h4{
+    color: #111111;
+    font-family: var(--primary-font);
+    font-weight: 500;
+    font-size: 14px;
+}
+
+#footer .footer_box .address{
+    margin: 30px 0px;
+}
+#footer .footer_box .address .icon i{
+    width: 30%;
+}
+#footer .footer_box .address .information{
+    font-family: var(--secondary-font);
+    font-size: 14px;
+    color: #828282;
+    width: 70%;
+    padding-left: 10px;
+    
+}
+#footer .footer_box .title h1{
+    font-size: 14px;
+}
+#footer .footer_box .linkicon{
+    margin: 30px 0px;
+}
+#footer .footer_box .linkicon li a{
+    font-family: var(--secondary-font);
+    font-size: 14px;
+    color: #828282;
+    padding-left: 10px;
+
+}
+#footer .footer_box .picture-1{
+    margin: 50px 0px;
+
+}
+#copy p{
+    padding: 25px 0px;
+    color: #727272;
+    position: relative;
+    background-color: #f1f1f1;
+    transition: .5s;
+}
+#copy p:hover{
+    color: #fdcc2f;
+}
+/*===== footer section end====== */
